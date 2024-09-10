@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Pokémon</title>
+</head>
+<body>
+    <h1>Detalhes do Pokémon: <%= pokemon.name %></h1>
+    <p>ID: <%= pokemon.id %></p>
+    <p>Altura: <%= pokemon.height %> decímetros</p>
+    <p>Peso: <%= pokemon.weight %> hectogramas</p>
+    <p>Habilidades: <%= pokemon.abilities.join(', ') %></p>
+    <p>Tipos: <%= pokemon.types.join(', ') %></p>
+    <a href="/">Voltar</a>
+</body>
+</html>
